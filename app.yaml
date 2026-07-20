@@ -1,0 +1,10 @@
+name: work-test
+services:
+  - name: web
+    github:
+      repo: AlexSpinks/Work-Test
+      branch: main
+      deploy_on_push: true
+    build_command: npm run build # (Replace with your framework's build command)
+    run_command: npm start       # (Replace with your start command)
+    http_port: 3000
