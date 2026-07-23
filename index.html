@@ -345,6 +345,17 @@
             color: var(--muted);
         }
 
+        .legal-note {
+            margin: 8px 32px 24px;
+            font-size: 0.62rem;
+            line-height: 1.2;
+            color: var(--muted);
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
         @media (max-width: 920px) {
             .hero,
             .content,
@@ -366,6 +377,11 @@
                 padding-left: 20px;
                 padding-right: 20px;
             }
+
+                .legal-note {
+                    margin-left: 20px;
+                    margin-right: 20px;
+                }
         }
 
         @media (max-width: 640px) {
@@ -490,9 +506,7 @@
             </div>
             <a href="https://www.nhs.uk/nhs-app/" class="cta-button" target="_blank" rel="noopener noreferrer">Tap the NHS App</a>
         </div>
-        <p>Apple, the Apple logo, iPhone, and iPad are trademarks of Apple Inc., registered in the
-            U.S. and other countries and regions. App Store is a service mark of Apple Inc.
-            Google Play and the Google Play logo are trademarks of Google LLC.</p>
+        <p class="legal-note">Apple, the Apple logo, iPhone, and iPad are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc. Google Play and the Google Play logo are trademarks of Google LLC.</p>
     </section>
 </div>
 
